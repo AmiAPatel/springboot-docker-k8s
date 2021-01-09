@@ -1,0 +1,62 @@
+[
+    {
+        "name": "emp1",
+        "id": 1,
+        "salary": 100000,
+        "maritalStatus": "married"
+    },
+    {
+        "name": "emp**10",
+        "id": 10,
+        "salary": 1000000,
+        "maritalStatus": "single**"
+    },
+    {
+        "name": "emp**2",
+        "id": 2,
+        "salary": 2000000,
+        "maritalStatus": "single**"
+    },
+    {
+        "name": "emp**3",
+        "id": 3,
+        "salary": 3000000,
+        "maritalStatus": "single**"
+    },
+    {
+        "name": "emp**4",
+        "id": 4,
+        "salary": 400000,
+        "maritalStatus": "single**"
+    },
+    {
+        "name": "emp**5",
+        "id": 5,
+        "salary": 500000,
+        "maritalStatus": "married**"
+    },
+    {
+        "name": "emp**5",
+        "id": 6,
+        "salary": 600000,
+        "maritalStatus": "married**"
+    },
+    {
+        "name": "emp**7",
+        "id": 7,
+        "salary": 700000,
+        "maritalStatus": "married**"
+    },
+    {
+        "name": "emp**8",
+        "id": 8,
+        "salary": 800000,
+        "maritalStatus": "married**"
+    },
+    {
+        "name": "emp**9",
+        "id": 9,
+        "salary": 9000,
+        "maritalStatus": "married**"
+    }
+]
