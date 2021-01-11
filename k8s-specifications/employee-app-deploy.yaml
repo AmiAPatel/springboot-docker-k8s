@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: employee-app-deploy
+  labels:
+      name: employee-app-deploy
+      app: demo-employee-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: demo-employee-app
+      app: employee-app-pod
+  template:
+    metadata:
+      name: employee-app-pod
+      labels:
+        name: demo-employee-app
+        app: employee-app-pod  
+    spec:
+      containers:
+      - name: employee-app
+        image: amipatel06/springboot-docker-k8s:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
