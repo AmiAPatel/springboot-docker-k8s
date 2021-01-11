@@ -9,14 +9,14 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: demo-employee-app
-      app: employee-app-pod
+      name: employee-app-pod
+      app: demo-employee-app
   template:
     metadata:
       name: employee-app-pod
       labels:
-        name: demo-employee-app
-        app: employee-app-pod  
+        name: employee-app-pod
+        app: demo-employee-app  
     spec:
       containers:
       - name: employee-app
