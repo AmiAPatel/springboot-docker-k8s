@@ -21,9 +21,9 @@ spec:
       containers:
       - name: employee-app
         image: amipatel06/springboot-docker-k8s:latest
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "500m"
+        # resources:
+        #   limits:
+        #     memory: "128Mi"
+        #     cpu: "500m"
         ports:
-        - containerPort: 80
+        - containerPort: 8080
